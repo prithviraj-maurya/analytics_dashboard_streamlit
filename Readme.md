@@ -2,6 +2,8 @@
 
 This Streamlit app allows users to upload a CSV or Excel file and generates a dashboard with various analytics plots based on the data columns.
 
+Streamlit app link: https://analytics-dashboard-drag-drop.streamlit.app
+
 ## Features
 
 - **Upload File**: Users can upload a CSV or Excel file containing their data.
