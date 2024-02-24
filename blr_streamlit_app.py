@@ -44,6 +44,9 @@ def main():
             st.write('## Dataset')
             st.write(data)
 
+            st.write('## Summary Statistics')
+            st.write(data.describe())
+
             for column in data.columns:
                 st.write(f'### {column}')
                 if data[column].dtype == 'object':
